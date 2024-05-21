@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+    background-image: url('./assets/heroimg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.CartHero{
+    background-image: url('./assets/CartHero.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:320px;
+}
+.CheckoutHero{
+    background-image: url('./assets/Checkout.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+}
+.ContactHero{
+    background-image: url('./assets/Contact.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+}
